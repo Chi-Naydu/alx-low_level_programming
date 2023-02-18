@@ -1,26 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <ctype.h>
-/* imported the librabries I need to run the program */
 
 /**
-* main - program function starts here
-*
-* Return: 0 (when no error)
-*/
+ * main - prints alphabet in lower and upper case
+ * Return: 0 (success)
+ */
 int main(void)
 {
-char alpha;
-char zaph;
-alpha = 'a';
-zaph = 'z';
-while (alpha <= zaph)
-{
-putchar(alpha);
-putchar(toupper(alpha));
-alpha++;
-}
-putchar('\n');
-return (0);
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
+	putchar('\n');
+	return (0);
 }
