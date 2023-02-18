@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 /* imported the libraries I need for this program */
-
 /**
 * main - program funtion starts here
 *
