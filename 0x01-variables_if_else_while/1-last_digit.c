@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /* imported the librabries I need to run the program */
+
 /**
 * main - program function starts here
 *
@@ -11,25 +12,25 @@ int main(void)
 {
 
 int n;
-int lastDigit = n % 10;
-int lastDigit;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-lastDigit = n % 10;
 /* conditional statements starts here */
+
+int lastDigit = n % 10;
+
+printf("Last digit of %d is %d\n", n, lastDigit);
 
 if (lastDigit > 5)
 {
-printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
+printf("and is greater than 5\n");
 }
 else if (lastDigit == 0)
 {
-printf("Last digit of %d is %d and is 0\n", n, lastDigit);
+printf("and is 0");
 }
 else if (lastDigit < 6)
 {
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastDigit);
-}
+printf("and is less than 6 and not 0\n");
 return (0);
 }
