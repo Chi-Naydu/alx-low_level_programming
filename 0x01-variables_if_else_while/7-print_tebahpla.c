@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /* imported the librabries I need to run the program */
+
 /**
 * main - program function starts here
 *
@@ -17,7 +18,6 @@ while (alpha >= zaph)
 {
 putchar(alpha);
 alpha++;
-alpha--;
 }
 putchar('\n');
 return (0);
