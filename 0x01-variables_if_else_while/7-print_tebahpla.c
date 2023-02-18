@@ -1,24 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-/* imported the librabries I need to run the program */
 
 /**
-* main - program function starts here
-*
-* Return: 0 (when no error)
-*/
+ * main - prints the number of base 16
+ * Return: Always 0
+ */
 int main(void)
 {
-char alpha;
-char zaph;
-alpha = 'z';
-zaph = 'a';
-while (alpha >= zaph)
-{
-putchar(alpha);
-alpha++;
-}
-putchar('\n');
-return (0);
+	int num;
+	char la;
+
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
+
+	for (la = 'a'; la <= 'f'; la++)
+		putchar(la);
+
+	putchar('\n');
+
+	return (0);
 }
