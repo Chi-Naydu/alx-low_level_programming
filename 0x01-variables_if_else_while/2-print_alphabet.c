@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 /* imported the librabries I need to run the program */
-
 /**
 * main - program function starts here
 *
@@ -11,8 +10,9 @@
 int main(void)
 {
 char alpha;
-alpha = 'a';
 char zaph;
+alpha = 'a'
+alpha = 'a';
 zaph = 'z';
 while (alpha <= zaph)
 {
