@@ -17,12 +17,12 @@ n = rand() - RAND_MAX / 2;
 /* conditional statements starts here */
 
 int lastDigit = n % 10
-	printf("\"%d" lastdigit\n");
+	printf("%d" lastdigit\n);
 int lastdigit > 5
-	printf("\"%d" and is greater than 5\n");
+	printf("%d" and is greater than 5\n);
 else if lastdigit = 0
-	printf("\"%d" and is 0\n");
+	printf("%d" and is 0\n);
 else lastdigit < 6 
-	printf("\"%d" and is less than 6 and not 0\n");
+	printf("%d" and is less than 6 and not 0\n);
 Return(0);
 }
